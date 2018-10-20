@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario Información Personal</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Información Personal</legend>
+        <!-- uso el DIV como caja, para que quede cada input quede abajo del otro-->
+
+          <div>
+            <label>Sexo:</label>
+          </div>
+              <input type="radio" name="sexo" value="1"> hombre
+              <input type="radio" name="sexo" value="2"> mujer
+          </div>
+          <p></p>
+          <div>
+            <label>Nombre:</label>
+          </div>
+          <div>
+              <input type="text" name="nombre" placeholder="Nombre">
+          </div>
+          <p></p>
+          <div>
+            <label>Apellido:</label>
+          </div>
+          <div>
+              <input type="text" name="apellido" placeholder="Apellido">
+          </div>
+          <p></p>
+          <div>
+            <label>Talle:</label>
+            <select name="talle">
+              <option value="L">Large</option>
+              <option value="M">Medium</option>
+              <option value="S">Small</option>
+            </select>
+          </div>
+          <p></p>
+          <div class="">
+            <input type="submit" value="Enviar">
+          </div>
+  </body>

@@ -1,0 +1,47 @@
+html {
+  font-size: 16px
+}
+
+body {
+  background-color: black;
+}
+
+header h1 {
+  color: white;
+}
+
+header nav a {
+  color: #7f7979;
+}
+
+main nav a {
+  color: #7f7979;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+#blog {
+  background-color: white;
+  color: #5f5b6b;
+}
+
+#blog h2 {
+  color: #3d3b3c;
+}
+
+#blog a {
+  color: #c1bdb3;
+}
+
+
+footer {
+  background-color: black;
+  color: #7f7979;
+}
+
+ul {
+  list-style: none;
+}

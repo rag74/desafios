@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes rotacion {
+  0%  {
+    transform: rotate(0deg);
+    }
+  100%  {
+    transform: rotate(360deg);
+      }
+}
+
+
+.r1 i {
+font-size: 12rem;
+position: relative;
+left: 20px;
+top: 5px;
+animation-name: rotacion;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.r2 i {
+font-size: 6rem;
+position: absolute;
+left: 195px;
+top: 130px;
+animation-name: rotacion;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: reverse;
+}
+
+.r3 i {
+font-size: 4rem;
+position: absolute;
+left: 5px;
+top: 170px;
+animation-name: rotacion;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: reverse;
+}
+
+.r4 i {
+font-size: 9rem;
+position: absolute;
+left: 20px;
+top: 220px;
+animation-name: rotacion;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+
+.r5 i {
+font-size: 2.5rem;
+position: absolute;
+left: 170px;
+top: 280px;
+animation-name: rotacion;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: reverse;
+}
